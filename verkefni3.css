@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+div{
+    border: 1.5px solid red;
+}
+/*liður1 */
+.grid_rammi{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1em;
+}
+.sans_titill{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sans_texti{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+.roman_titill{
+    font-family: 'Times New Roman', Times, serif;
+}
+.roman_texti{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+.courier_titill{
+    font-family: 'Courier New', Courier, monospace;
+}
+.courier_texti{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+/* liður2 */
+.fjorirdalkar{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1em
+}
+.georgia_titill{
+    font-family: georgia;
+
+}
+.georgia_texti{
+    font-family: georgia;
+}
+.trebuchet_titill{
+    font-family: trebuchet;
+}
+.trebuchet_texti{
+    font-family: trebuchet;
+}
+.arialblack_titill{
+    font-family: arial black;
+}
+.arialblack_texti{
+    font-family: arial black;
+}
+.palatino_titill{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.palatino_texti{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+.tveirdalkar{
+    display:grid;
+    grid-template-columns: auto auto;
+
+}
+.litilltexti{
+    font-size: 0.7em;
+    padding: 1.6em;
+}
+
+.grid{
+    grid-template-columns: 1fr;
+    background: wheat;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.italic{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+.lettersize{
+    font-size: 40px
+}
+.grid_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur"
+}
+.h{
+    grid-area: haus;
+    background: brown;
+}
+.hl1{
+    grid-area: hlekkur1;
+    background: burlywood;
+}
+.hl2{
+    grid-area: hlekkur2;
+    background: burlywood;
+}
+.hl3{
+    grid-area: hlekkur3;
+    background: burlywood;
+}
+.hl4{
+    grid-area: hlekkur4;
+    background: burlywood;
+}
+.hl5{
+    grid-area: hlekkur5;
+    background: burlywood;   
+}
+.vinstri{
+    grid-area: vinstri;
+    background:brown;
+
+}
+.midja{
+    grid-area: midja;
+    background: rgb(145, 90, 51);
+}
+.haegri{
+    grid-area:haegri;
+    background:brown;
+}
+.fotur{
+    grid-area: fotur;
+    background:brown;
+    text-align: center;
+}
+
+.second_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "link1 link2 link3 link4 link5"
+    "yfirtexti yfirtexti yfirtexti yfirtexti yfirtexti"
+    "yfirtexti2 yfirtexti2 yfirtexti2 yfirtexti2 yfirtexti2"
+    "leftt leftt rightt rightt rightt"
+    "foot foot1 foot2 foot3 foot3";
+}
+.link1{
+    grid-area: link1;
+    background:red;
+    font-family:  'Anton', sans-serif;
+}
+.link2{
+    grid-area: link2;
+    background: red;
+    font-family:  'Anton', sans-serif;
+}
+.link3{
+    grid-area: link3;
+    background:red;
+    font-family:  'Anton', sans-serif;
+}
+.link4{
+    grid-area: link4;
+    background:red;
+    font-family:  'Anton', sans-serif;
+    
+}
+.link5{
+    grid-area: link5;
+    background:red;
+    font-family:  'Anton', sans-serif;
+}
+.yfirtexti{
+    grid-area: yfirtexti;
+    background: black;
+}
+.yfirtexti2{
+    grid-area: yfirtexti2;
+    background: black;
+}
+.leftt{
+    grid-area: leftt;
+    background: red;
+    font-family:  'Anton', sans-serif;
+
+}
+.rightt{
+    grid-area: rightt;
+    background: black;
+}
+.foot{
+    grid-area: foot;
+    background:black;
+    font-family:  'Anton', sans-serif;
+    color: red;
+}
+.foot1{
+    grid-area: foot1;
+    background: black;
+    font-family:  'Anton', sans-serif;
+    color:red;
+}
+.foot2{
+    grid-area: foot2;
+    background: red;
+    font-family:  'Anton', sans-serif;
+    text-align: center;
+}
+.foot3{
+    grid-area: foot3;
+    background: red;
+    font-family:  'Anton', sans-serif;
+    text-align: right;
+}
+.gojira{
+    color: red;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.band{
+    color: red;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.redtext{
+    color: red;
+    font-family:  'Anton', sans-serif;
+}

@@ -1,0 +1,46 @@
+/* linkur fyrir google font*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*breytti lit á bakgrunni*/
+body{
+    background: pink;
+}
+/*Defineaði meðal annars bakgrunnslit header menusings*/
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+/*hér skilgreyndi ég lit textans á headernum og stærð orða og stærð bila á milli orða*/
+.navbar a {
+    float:left;
+    color:pink;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* hér setti ég inn lit sem kemur upp þegar að þú setur músina yfir einn af linkum headersins*/
+.navbar a:hover{
+    background-color:black;
+    color: greenyellow;
+}
+/* hér gerði ég ekkert nema að breyta texta stílnum á síðunni*/
+.h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+.textium{
+    font-family: 'Raleway', sans-serif;
+}
+.list{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+.h2{
+    font-family: 'Raleway', sans-serif;
+} 
+
+.pets{
+    font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,107 @@
+/* hægt er að setja heitið t.d. heading-onum í stað þess að gera klassa, til þess að setja fleirr en einn setur maður kommu
+og svo bil */
+h1, h2, h3{
+    color: plum;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.color{
+    color:red;
+}
+
+.letter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*Margin færir kassann sjálfann til á meðan margin "stækkar" kassann og textinn fer fyrir miðju á honum*/
+.rammi1{
+    border: 1px solid red;
+    margin:40px;
+    padding:40px;
+}
+
+.rammi2{
+    border: 3px solid red;
+    padding: 3px;
+}
+
+.listi li{ 
+    display: block;
+    margin: 5px;
+    padding: 3em;
+    border: 3px dashed red;
+}
+
+.listi2 li{
+        display: inline;
+        padding: 1em;
+        margin: 1em;
+        border: 3px dashed red
+}
+
+.listi3 li{
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed violet
+
+}
+
+.rammi3{
+    border: 1px solid red;
+    padding: 30px;
+}
+.rammi4{
+    display: block;
+    margin: 3px;
+    padding: 3px;
+    border: 3px dashed red
+}
+.float1{
+    float: left;
+    border:solid red;
+    padding: 10px;
+    width: 50%
+}
+.float2{
+    float:left;
+    border:solid red;
+    padding:10px;
+    width: 50%
+}
+.float3{
+    float: left;
+    border:solid red;
+    padding: 10px;
+    width: 33.3%
+}
+.float4{
+    float: left;
+    border:solid red;
+    padding: 10px;
+    width: 33.3%
+
+}
+.float5{
+    float: left;
+    border:solid red;
+    padding: 10px;
+    width: 33.3%
+}
+
+.text{
+    font-size: 35px
+}
+
+.text2{
+    font-size: 23px
+}
+
+.signature{
+    text-align: right;
+}
+/* *{ er til þess að skilgreina allt sem fellur undir ákveðið tag. commandið fyrir neðan er til þess að síðan telji ekki pixlana 
+    sem eru á bordernum sjálfum ekki með í width*/
+*{
+    box-sizing: border-box
+}
